@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CUBO OLAP Proyecto Final DW_Northwind INF 317</Database>
+    <Server>AMANTHUL</Server>
+    <ConnectionString>DataSource=AMANTHUL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>U9AhT7zFjKEEcuAyiGz1jQ==28/7/2020 08:29:1028/7/2020 08:29:10</TimeStamp>
+        <ID>
+          <String>DW Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6j9rBYEWhoa+TIDA8v0n+Q==28/7/2020 08:33:2728/7/2020 08:30:18</TimeStamp>
+        <ID>
+          <String>DW Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>s4lEuQ3L73eGt5LdYeUYLw==28/7/2020 08:33:2728/7/2020 08:33:27</TimeStamp>
+        <ID>
+          <String>D CATEGORIA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>knRtCozk9s+XcePTsEq+gQ==28/7/2020 08:33:4428/7/2020 08:33:44</TimeStamp>
+        <ID>
+          <String>D CLIENTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nIsIjOgbJ+y3XHxSE1XSUw==28/7/2020 08:33:5828/7/2020 08:33:58</TimeStamp>
+        <ID>
+          <String>D EMP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>V1OS6H8ftxby/Mp1EVud9A==28/7/2020 08:34:1328/7/2020 08:34:13</TimeStamp>
+        <ID>
+          <String>D PRODUCTOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MvhkVRrg1/h5CRrh2q2uww==28/7/2020 08:34:2828/7/2020 08:34:28</TimeStamp>
+        <ID>
+          <String>D TERRITORIO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>M/nXI+67CRLO5ZxZVTYG/A==28/7/2020 08:35:0528/7/2020 08:35:04</TimeStamp>
+        <ID>
+          <String>D TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IbFJqySFF1isFQAa5itrRA==28/7/2020 08:40:0128/7/2020 08:35:59</TimeStamp>
+        <ID>
+          <String>H VENTA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>REIFPsmHTztscFwd+CPz+A==28/7/2020 10:41:0828/7/2020 09:27:55cE0FPLWGhK5u8EY+uvczrA==28/7/2020 09:27:5628/7/2020 09:27:55</TimeStamp>
+        <ID>
+          <String>DW Northwind</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>DVnYE+dfEG7T4LU23Y5YGg==28/7/2020 08:28:4928/7/2020 08:28:48</TimeStamp>
+      <ID>
+        <String>CUBO OLAP Proyecto Final DW_Northwind INF 317</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-07-28T15:07:34.833333Z</LastDeployed>
+</DeploymentSnapshot>

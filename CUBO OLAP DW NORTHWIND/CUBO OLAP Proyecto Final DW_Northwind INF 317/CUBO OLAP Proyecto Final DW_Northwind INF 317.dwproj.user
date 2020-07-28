@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DW Northwind</Id>
+            <Name>DW Northwind</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgj8aEQYfb0+Jva3fePeBnAAAAAAaAAAARABXACAATgBvAHIAdABoAHcAaQBuAGQAAAAQZgAAAAEAACAAAADN9ogHEJsURJHr1Zu5Mtc/Lpkagbasw9RqsBAWAi8bAAAAAAAOgAAAAAIAACAAAAASbMqHsygO+t0+RZ+2mz6ADUMbNJYK+AJM0ugwMw9jZhAAAAA9XDPkc7F9eTS79KMOR/+GQAAAAAMTd2QBxeWhXWFEriX8S8+YYnIF2fVyI3BPho1Bbk14CIKpaOJYQ0fdL+ioISfEONGLJ6lNaBeEFp3Do1iDvII=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DW Northwind</Id>
+            <Name>DW Northwind</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgj8aEQYfb0+Jva3fePeBnAAAAAAaAAAARABXACAATgBvAHIAdABoAHcAaQBuAGQAAAAQZgAAAAEAACAAAADXnsPmJhBV1uQRt2Rsb8dAmFxLJ+v0jI1ucFRbDi1slgAAAAAOgAAAAAIAACAAAACUwOqn+Q6mOY6iI0i6t865m2iH0E6KFZrL4iT57VG7pBAAAAB0xD2VpfB0UeIGoo7t87RMQAAAAHqPzR561kO4FB49PiV8hb9XPm8ens+NTDZNd2I07o0/Sd+V5Sgm+mUh224VN+pYdpUEFEy7tJ2Xyf2wLbYjMl8=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>AMANTHUL</TargetServer>
+        <TargetDatabase>CUBO OLAP Proyecto Final DW_Northwind INF 317</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

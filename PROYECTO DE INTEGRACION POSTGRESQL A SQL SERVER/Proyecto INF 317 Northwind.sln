@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Proyecto INF 317 Northwind", "Proyecto INF 317 Northwind\Proyecto INF 317 Northwind.dtproj", "{38AEB709-A98F-46AC-9B84-8A49F3DD4BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38AEB709-A98F-46AC-9B84-8A49F3DD4BE5}.Development|Default.ActiveCfg = Development
+		{38AEB709-A98F-46AC-9B84-8A49F3DD4BE5}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
